@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#F8F5F1 ;
+    padding: 4rem;
+    display: flex;
+    gap: 0 1rem;
+}
+
+section.img{
+    flex:1 ;
+}
+
+section.text{
+    flex: 2;
+    flex-basis: 300px;
+}
+
+
+section.img img{
+    width: 100%;
+    min-width: 300px;
+}
+
+section.text h1,p{
+    line-height: 2;
+}
